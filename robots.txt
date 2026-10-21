@@ -1,0 +1,49 @@
+# robots.txt —— 放行 AI 爬虫，让生成式引擎能抓取并引用本站
+# 由 GEO 工作台「官网复活向导」生成。
+
+User-agent: *
+Allow: /
+
+# ---- 国产 AI / 搜索引擎 ----
+User-agent: Bytespider       # 字节跳动（豆包 / 今日头条）
+Allow: /
+User-agent: Baiduspider      # 百度（文心一言）
+Allow: /
+User-agent: 360Spider        # 360 智脑
+Allow: /
+User-agent: Sogou web spider # 搜狗（腾讯元宝）
+Allow: /
+User-agent: YisouSpider      # 神马搜索
+Allow: /
+
+# ---- 海外 AI ----
+User-agent: GPTBot           # OpenAI ChatGPT
+Allow: /
+User-agent: OAI-SearchBot    # OpenAI 搜索
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: ClaudeBot        # Anthropic Claude
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+User-agent: PerplexityBot    # Perplexity
+Allow: /
+User-agent: Google-Extended  # Google Gemini / AI 概览
+Allow: /
+User-agent: Applebot-Extended # Apple Intelligence
+Allow: /
+User-agent: Meta-ExternalAgent
+Allow: /
+User-agent: Amazonbot
+Allow: /
+User-agent: cohere-ai
+Allow: /
+
+# ---- 传统搜索引擎（AI 检索的事实底座）----
+User-agent: Googlebot
+Allow: /
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://www.qwfy.xyz/sitemap.xml
